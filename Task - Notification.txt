@@ -1,0 +1,87 @@
+﻿TITLE - Add action notifications to newsletter subscription box.
+
+
+DESCRIPTION
+
+
+Business case: The functionality works as expected, but there’s no confirmation to let the customer know if the subscription was really made or if something went wrong.
+
+
+To-do:  Add specific notifications to the newsletter subscribe actions. It must show up in three situations: the first one is when the user enters an invalid email such as “dfeijsj”; the second is when the user enters a valid email address, and the last is when the user enters an already registered email.
+
+
+Content:  When the customer tries to subscribe to an invalid email, the notification text should say “Invalid email. Please check and try again!" in red font. When the customer tries to subscribe with a valid email, the notification text should say "Successfully subscribed. Thank you!" in green font, and if the email is already registered, the text notification must show the message “This email is already signed.” in orange font.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Visual/Wireframes: The notification should appear right under the subscription box.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to test: 
+* Test case 1: User enters an invalid email. 
+   * Test data: invalid email address.
+   * Test steps: enter the invalid e-mail in text input, click on the Sign Up button.
+   * Expected results: The notification “Invalid email. Please check and try again!" must show up under the subscription box.
+
+
+* Test case 2: User enters a valid email. 
+   * Test data: valid email address.
+   * Test steps: enter the valid email in text input, click on the Sign Up button.
+   * Expected results: The notification "Successfully subscribed. Thank you!" must show up under the subscription box.
+
+
+* Test case 3: User enters a valid email that is already registered. 
+   * Test data: email address that is already registered.
+   * Test steps: enter the email in text input, click on the Sign Up button.
+   * Expected results: The notification “This email is already signed” must show up under the subscription box.
